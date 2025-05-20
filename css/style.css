@@ -1,0 +1,98 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {margin: 0; padding: 0;}
+h1 {font-size: 16px;}
+a {text-decoration: none; color: #000;}
+ul, ol {list-style: none;}
+img {max-width: 100%; vertical-align: top; border: none;}
+body {font-family: "Roboto", "Noto Sans KR", sans-serif; font-size: 1vw; margin: 0 auto; background-color: #040404; color: #F6F5EF;}
+button {all: unset; cursor: pointer;}
+/* common css */
+body.fixed {overflow-y: hidden;}
+:root {--swiper-theme-color: #F6F5EF;}
+::-webkit-scrollbar {width: 7px; height: 7px; background-color: #F6F5EF;}
+::-webkit-scrollbar-thumb {border-radius: 3px; background-color: #666;}
+section:not(:nth-of-type(3)) {margin: 0 auto; max-width: 1440px; box-sizing: border-box;}
+section .title h2 {display: block; padding: 20px 0 0.75em 30px; font-family: "Bodoni Moda", sans-serif; font-weight: 200; font-size: 4em; border-top: 1px solid #F6F5EF;}
+/* start */
+#start {position: relative; padding: 0 2em; height: 90vh; box-sizing: border-box;}
+#start header {position: fixed; left: 0; top: 0; width: 100%; z-index: 1000; background-color: rgba(0, 0, 0, 0.7); box-sizing: border-box; transition: top 0.4s ease-out;}
+#start header .inner {display: flex; justify-content: space-between; align-items: center; margin: 0 auto; max-width: 1440px; height: 75px; box-sizing: border-box;}
+#start header.fixed .inner {border: transparent;}
+#start header .inner .logo h1 {font-size: 1.25em; font-weight: 400;}
+#start header .inner nav ul {display: flex; gap: 2em;}
+#start header .inner nav ul li a {display: inline-block; position: relative; font-size: 1em; color: #F6F5EF; transition: color 0.3s ease-out;}
+#start header .inner nav ul li a::after {content: ""; position: absolute; left: 0; bottom: -8px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
+#start header .inner nav ul li.active a::after {transform: scaleX(1);}
+#start header .inner .tab {display: none; position: absolute; right: 2em; top: 50%; width: 30px; transform: translateY(-50%);}
+#start header .inner .tab { display: none; position: absolute; top: 45%; right: 2em; transform: translateY(-50%);}
+#start header .inner .tab a .button {display: block; position: relative;}
+#start header .inner .tab a .button::before {content: ""; position: absolute; top: -2px; left: 0; right: 0; bottom: 0; margin: auto; width: 23px; height: 3px; background-color: #F6F5EF; transition: all 0.3s ease-out;}
+#start header .inner .tab.active a .button::before {content: ""; position: absolute; top: 5px; left: 0; right: 0; bottom: 0; margin: auto; width: 23px; height: 3px; background-color: #F6F5EF; transform: rotate(45deg);}
+#start header .inner .tab a .button::after {content: ""; position: absolute; top: 7px; left: 0; right: 0; bottom: 0; margin: auto; width: 23px; height: 3px; background-color: #F6F5EF; transition: all 0.3s ease-out;}
+#start header .inner .tab.active a .button:after {content: ""; position: absolute; top: 5px; left: 0; right: 0; bottom: 0; margin: auto; width: 23px; height: 3px; background-color: #F6F5EF; transform: rotate(-45deg);}
+#start .deco .image_top {display: block; position: absolute; right: 28%; top: 25%; width: 110px; height: 110px; transform: rotate(30deg);}
+#start .deco .image_bottom {display: block; position: absolute; left: 28%; bottom: 25%; width: 110px; height: 110px; transform: rotate(-30deg);}
+#start .deco .image img {display: block; width: 100%; height: 100%; object-fit: cover;}
+#start .text {position: absolute; left: 50%; top: 50%; z-index: 100; transform: translate(-50%, -50%);}
+#start .text .inner {margin: 0 auto; max-width: 1440px; text-align: center;}
+#start .text .inner strong {display: block; line-height: 1.325; font-family: "Bodoni Moda", sans-serif; font-size: 5.5em; font-weight: 300;}
+#start .text .inner span {display: block; line-height: 1.325; font-size: 5.5em; white-space: nowrap;}
+#start .background {position: absolute; left: 0; top: 0; z-index: -1; width: 100%; height: 100vh;}
+#start .background video {display: block; width: 100%; height: 100%; object-fit: cover;}
+/* page1 */
+#page1 {padding: 5% 2em 15% 2em;}
+#page1 .title {padding-top: 75px;}
+#page1 .content .text {padding-top: 75px;}
+#page1 .content .text p {line-height: 2.75; font-size: 1.125em; font-weight: 300; text-align: center;}
+/* page2 */
+#page2 {padding: 0 2em 15% 2em; margin: 0 auto; max-width: 1440px; box-sizing: border-box;}
+#page2 .content .text ul li {padding: 2em 0.75em; border-bottom: 1px solid #F6F5EF;}
+#page2 .content .text ul li strong {font-family: "Bodoni Moda", sans-serif; font-weight: 200; font-size: 1em;}
+#page2 .content .text ul li p {line-height: 2.5; font-size: 0.8em; font-weight: 300;}
+/* page3 */
+#page3 {position: relative; height: 76.5vh; box-sizing: border-box;}
+#page3 .image_bg ul li {position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; background-color: rgba(0,0,0,.5); opacity: 0; transition: all 0.3s;}
+#page3 .image_bg ul li::after {content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.8);}
+#page3 .image_bg ul li.active {opacity: 1;}
+#page3 .image_bg ul li img {display: block; width: 100%; height: 100%; object-fit: cover;}
+#page3 .inner {padding: 0 2em; margin: 0 auto; max-width: 1440px; box-sizing: border-box;}
+#page3 .inner .content .mainSwiper {position: absolute; left: 0; top: 50%; margin-left: 12%; width: calc(100% - 200px); overflow: hidden; transition: all 0.3s; transform: translateY(-50%);}
+#page3 .inner .content .mainSwiper .swiper-wrapper {align-items: flex-start;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {position: relative; padding: 2.125em 2em; height: 18em; box-sizing: border-box; transition: all 0.5s;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide.swiper-slide-active a {opacity: 1;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a {display: block; height: 100%; opacity: 0.5; transition: all 0.5s;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .project {font-size: 0.8em; font-weight: 500; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .title {display: block; padding: 0.5em 0; font-family: "Bodoni Moda", sans-serif; font-size: 1.3em; font-weight: 400; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a span {display: block; line-height: 1.9; font-size: 0.7em; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .review {display: inline-block; position: relative; bottom: -1.5em; font-size: 0.8em; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .review::after {content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .review.active::after {transform: scaleX(1);} 
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .line {position: absolute; left: 0; top: 0; width: 95%; height: 100%; border: 3px solid #fff; opacity: 0; box-sizing: border-box; transition: all 0.1s ease-in;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide.swiper-slide-active a .line {opacity: 1;}
+/* page4 */
+#page4 {padding: 10% 2em;}
+#page4 .content {margin: 0 auto; width: 65%;}
+#page4 .content .subSwiper {height: 100%;}
+#page4 .content .subSwiper ul {display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 3em;}
+#page4 .content .subSwiper ul li {width: calc((100% - 6em)/3);}
+#page4 .content .subSwiper ul li a {display: block; position: relative; padding: 2em; border: 2px solid #F6F5EF; color: #F6F5EF; height: 15vw}
+#page4 .content .subSwiper ul li a::after {content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 9; opacity: 1; background-color: #040404; transition: opacity 0.3s ease-out;}
+#page4 .content .subSwiper ul li:hover a::after {opacity: 0.75;}
+#page4 .content .subSwiper ul li:nth-child(1):hover a {background: url(../images/open1.png); background-size: cover;}
+#page4 .content .subSwiper ul li:nth-child(2):hover a {background: url(../images/open2.png); background-size: cover;}
+#page4 .content .subSwiper ul li:nth-child(3):hover a {background: url(../images/open3.png); background-size: cover;}
+#page4 .content .subSwiper ul li:nth-child(4):hover a {background: url(../images/open4.png); background-size: cover;}
+#page4 .content .subSwiper ul li:nth-child(5):hover a {background: url(../images/open5.png); background-size: cover;}
+#page4 .content .subSwiper ul li:nth-child(6):hover a {background: url(../images/open6.png); background-size: cover;}
+#page4 .content .subSwiper ul li a .text .inner {position: absolute; left: 0; top: 0; width: calc(100% - 2em); margin: 1em; height: calc(15vw + 2em); z-index: 10; border: 1px solid #F6F5EF;}
+#page4 .content .subSwiper ul li a .text .inner strong {display: block; padding-top: 2.5em; font-family: "Bodoni Moda", sans-serif; font-weight: 200; text-align: center;}
+#page4 .content .subSwiper ul li a .text .inner p {display: block; padding-top: 1.25em; padding-left: 1em; line-height: 1.8; font-size: 0.8em; font-weight: 300; text-align: left;}
+#page4 .content .subSwiper ul li a .text .inner span {display: inline-block; position: relative; left: 50%; top: 0; padding-top: 2.5em; font-size: 1em; font-weight: 300; text-align: center; transform: translateX(-50%);}
+#page4 .content .subSwiper ul li a .text .inner span::after {content: ""; position: absolute; left: 0; bottom: -6px; width: 100%; border-bottom: 1px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
+#page4 .content .subSwiper ul li:hover a .text .inner span::after {transform: scaleX(1);}
+/* footer */
+footer {display: flex; align-items: center; gap: 4em; position: relative; padding: 10% 2em; margin: 0 auto; max-width: 1440px;}
+footer .title h2 {display: block; padding-bottom: 0.75em; font-family: "Bodoni Moda", sans-serif; font-weight: 200; font-size: 4em;}
+footer .privacy {padding-left: 1.5em; border-left: 1px solid #F6F5EF; box-sizing: border-box;}
+footer .privacy span {display: block; line-height: 2.5; font-size: 1.25em; font-weight: 300; }
+footer .top {position: absolute; right: 2em; top: 50%; width: 90px; height: 90px; font-size: 0; text-indent: -9999px; background: url(../images/top.png) no-repeat; background-size: cover; transform: translateY(-50%); animation: top 1s ease-in-out infinite alternate;}
+@keyframes top {0% {top: 48%} 100% {top: 52%}}
