@@ -34,6 +34,8 @@ window.addEventListener("load", () => {
 		subSwiper=new Swiper(".subSwiper", {
 			slidesPerView: 3.5,
 			spaceBetween: 20,
+			slidesOffsetBefore: 10,
+			slidesOffsetAfter: 140,
 			breakpoints : {
 				700: {
 					spaceBetween: 10,
@@ -177,12 +179,14 @@ window.addEventListener("load", () => {
 	});
 
 	// top 버튼
-	document.querySelector("footer .top").addEventListener("click", e => {
-		e.preventDefault();
+	// document.querySelector("footer .top").addEventListener("click", e => {
+	// 	e.preventDefault();
 
-		let target=document.querySelector("#start").offsetTop
-		gsap.to(window, {scrollTo : target, duration: 0.4});
-	});
+	// 	let target=document.querySelector("#start").offsetTop
+	// 	gsap.to(window, {scrollTo : target, duration: 0.4});
+	// });
+
+	// start GSAP
 
 	let clover=document.querySelector("#start .deco");
 	let startText=document.querySelector("#start .text .inner")
