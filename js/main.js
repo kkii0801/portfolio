@@ -199,10 +199,11 @@ window.addEventListener("load", () => {
 	}
 	})
 
-	startTl.fromTo(startText.children[0], {y: 70, opacity: 0}, {y: 0, opacity: 1, duration: 0.4},"a")
-	startTl.fromTo(startText.children[1], {y: 90, opacity: 0}, {y: 0, opacity: 1, duration: 0.9}, "a")
-	startTl.fromTo(startText.children[2], {y: 110, opacity: 0}, {y: 0, opacity: 1, duration: 1.4}, "a")
-	startTl.fromTo(clover.children, {y: 70, opacity: 0}, {y: 0, opacity: 1, stagger: 0.6 , duration: 0.7}, "b")
+	startTl.fromTo(startText.children[0], {y: 70, opacity: 0}, {y: 0, opacity: 1, duration: 0.5}, "a")
+	startTl.fromTo(startText.children[1], {y: 70, opacity: 0}, {y: 0, opacity: 1, duration: 0.5}, "b")
+	startTl.fromTo(startText.children[2], {y: 70, opacity: 0}, {y: 0, opacity: 1, duration: 0.5}, "c")
+	startTl.fromTo(clover.children[0], {y: 70, opacity: 0}, {y: 0, opacity: 1, duration: 0.7}, "d")
+	startTl.fromTo(clover.children[1], {y: 70, opacity: 0}, {y: 0, opacity: 1, duration: 1}, "d")
 	
 	gsap.utils.toArray(".deco img").forEach(particle => {
 		gsap.to(particle, {
