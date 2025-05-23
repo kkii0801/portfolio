@@ -96,13 +96,16 @@
 @media only screen and (max-width: 1440px) {
 	footer .title h2 {font-size: 4.25em;}
 	footer .privacy span {font-size: 1.5em;}
+	footer .site ul li a {font-size: 1.125em;}
 }
 @media only screen and (max-width: 900px) {
 	footer .title h2 {font-size: 5.25em;}
 	/* footer .top {width: 65px; height: 65px;} */
 	footer .privacy span {font-size: 1.75em;}
+	footer .site ul li a {font-size: 1.375em;}
 }
 
-/* @media only screen and (max-width: 700px) {
-	footer .top {width: 50px; height: 50px;}
-} */
+@media only screen and (max-width: 700px) {
+	footer .site ul li a {font-size: 1.75em;}
+	/* footer .top {width: 50px; height: 50px;} */
+}

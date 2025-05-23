@@ -266,9 +266,9 @@ window.addEventListener("load", () => {
 	const mainSwiper=new Swiper(".mainSwiper", {
 		speed: 800,
 		loop: true,
-		autoplay: {
-			delay: 4000,
-		},
+		// autoplay: {
+		// 	delay: 4000,
+		// },
 		breakpoints: {
 			700: {
 				slidesPerView: 1,
