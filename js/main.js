@@ -267,7 +267,7 @@ window.addEventListener("load", () => {
 		speed: 800,
 		loop: true,
 		autoplay: {
-			delay: 4000
+			delay: 4000,
 		},
 		breakpoints: {
 			700: {
