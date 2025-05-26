@@ -58,16 +58,20 @@ section .title h2 {display: block; padding: 20px 0 0.75em 30px; font-family: "Bo
 #page3 .inner .content .mainSwiper {position: absolute; left: 0; top: 50%; margin-left: 12%; width: calc(100% - 200px); overflow: hidden; transition: all 0.3s; transform: translateY(-50%);}
 #page3 .inner .content .mainSwiper .swiper-wrapper {align-items: flex-start;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {position: relative; padding: 2.125em 2em; height: 18em; box-sizing: border-box; transition: all 0.5s;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide.swiper-slide-active a {opacity: 1;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a {display: block; height: 100%; opacity: 0.5; transition: all 0.5s;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .project {font-size: 0.8em; font-weight: 500; color: #F6F5EF;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .title {display: block; padding: 0.5em 0; font-family: "Bodoni Moda", sans-serif; font-size: 1.3em; font-weight: 400; color: #F6F5EF;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a span {display: block; line-height: 1.9; font-size: 0.7em; color: #F6F5EF;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .review {display: inline-block; position: relative; bottom: -1.5em; font-size: 0.8em; color: #F6F5EF;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .review::after {content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .review.active::after {transform: scaleX(1);} 
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .line {position: absolute; left: 0; top: 0; width: 95%; height: 100%; border: 3px solid #fff; opacity: 0; box-sizing: border-box; transition: all 0.1s ease-in;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide.swiper-slide-active a .line {opacity: 1;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide.swiper-slide-active .box {opacity: 1;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box {height: 100%; opacity: 0.5; transition: all 0.5s;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 0.8em; font-weight: 500; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {display: block; padding: 0.5em 0; font-family: "Bodoni Moda", sans-serif; font-size: 1.3em; font-weight: 400; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {display: block; line-height: 1.9; font-size: 0.7em; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .link {display: flex; gap: 1em;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {display: inline-block; position: relative; bottom: -1.5em; z-index: 100; font-size: 0.8em; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review::after {content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review.active::after {transform: scaleX(1);} 
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {display: inline-block; position: relative; bottom: -1.5em; z-index: 100; font-size: 0.8em; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site::after {content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site.active::after {transform: scaleX(1);} 
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .line {position: absolute; left: 0; top: 0; width: 95%; height: 100%; border: 3px solid #fff; opacity: 0; box-sizing: border-box; transition: all 0.1s ease-in;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide.swiper-slide-active .box .line {opacity: 1;}
 /* page4 */
 #page4 {padding: 10% 2em;}
 #page4 .content {margin: 0 auto; width: 65%;}

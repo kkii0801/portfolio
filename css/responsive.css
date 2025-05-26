@@ -53,18 +53,21 @@
 
 /* page3 */
 @media only screen and (max-width: 1440px) {
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .project {font-size: 1.05em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .title {font-size: 1.55em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a span {font-size: 0.95em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .review {font-size: 1.05em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {height: 21.5em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 1.05em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {font-size: 1.55em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {font-size: 0.95em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {font-size: 1.05em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {font-size: 1.05em;}
 }
 @media only screen and (max-width: 900px) {
 	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {padding: 3.25em 3.125em; height: 40em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .line { width: 90%;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .project {font-size: 2em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .title {font-size: 2.5em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a span {font-size: 1.9em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide a .review {font-size: 2em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .line { width: 90%;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 2em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {font-size: 2.5em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {font-size: 1.9em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {font-size: 2em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {font-size: 2em;}
 
 }
 
