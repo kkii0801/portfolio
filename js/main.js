@@ -99,8 +99,11 @@ window.addEventListener("load", () => {
 	let prev=0;
 	let next=0;
 	let direction="";
+	let isScrolling = false;
 
 	window.addEventListener("scroll", () => {
+
+		if (isScrolling) return;
 
 		t=window.scrollY;
 
@@ -172,6 +175,8 @@ window.addEventListener("load", () => {
 	tabBtn.addEventListener("click", e => {
 		e.preventDefault();
 
+		isScrolling = true;
+
 		tabBtn.classList.toggle("active");
 		Nav.classList.toggle("active");
 		Body.classList.toggle("fixed");
@@ -180,6 +185,7 @@ window.addEventListener("load", () => {
 		}
 		else{
 			lenis.start();
+			isScrolling = false;
 		}
 	});
 
