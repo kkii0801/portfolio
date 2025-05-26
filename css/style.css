@@ -56,19 +56,19 @@ section .title h2 {display: block; padding: 20px 0 0.75em 30px; font-family: "Bo
 #page3 .inner {padding: 0 2em; margin: 0 auto; max-width: 1440px; box-sizing: border-box;}
 #page3 .inner .content .mainSwiper {position: absolute; left: 0; top: 50%; margin-left: 12%; width: calc(100% - 200px); overflow: hidden; transition: all 0.3s; transform: translateY(-50%);}
 #page3 .inner .content .mainSwiper .swiper-wrapper {align-items: flex-start;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {position: relative; padding: 2.125em 2em; height: 18em; box-sizing: border-box; transition: all 0.5s;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {position: relative; padding: 2.125em 2em; height: 19.5em; box-sizing: border-box; transition: all 0.5s;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide.swiper-slide-active .box {opacity: 1;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box {height: 100%; opacity: 0.5; transition: all 0.5s;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 0.8em; font-weight: 500; color: #F6F5EF;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {display: block; padding: 0.5em 0; font-family: "Bodoni Moda", sans-serif; font-size: 1.3em; font-weight: 400; color: #F6F5EF;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {display: block; line-height: 1.9; font-size: 0.8em; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 0.9em; font-weight: 500; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {display: block; padding: 0.5em 0; font-family: "Bodoni Moda", sans-serif; font-size: 1.4em; font-weight: 400; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {display: block; line-height: 1.9; font-size: 0.9em; color: #F6F5EF;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .link {display: flex; gap: 1em;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {display: inline-block; position: relative; bottom: -1.5em; z-index: 100; font-size: 0.8em; color: #F6F5EF;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review::after {content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review.active::after {transform: scaleX(1);} 
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {display: inline-block; position: relative; bottom: -1.5em; z-index: 100; font-size: 0.8em; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {display: inline-block; position: relative; bottom: -1.5em; z-index: 100; font-size: 0.9em; color: #F6F5EF;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site::after {content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site.active::after {transform: scaleX(1);} 
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {display: inline-block; position: relative; bottom: -1.5em; z-index: 100; font-size: 0.9em; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review::after {content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review.active::after {transform: scaleX(1);} 
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .line {position: absolute; left: 0; top: 0; width: 95%; height: 100%; border: 3px solid #fff; opacity: 0; box-sizing: border-box; transition: all 0.1s ease-in;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide.swiper-slide-active .box .line {opacity: 1;}
 /* page4 */
@@ -98,6 +98,7 @@ footer .left {display: flex; align-items: center; gap: 4em;}
 footer .title h2 {display: block; padding-bottom: 0.75em; font-family: "Bodoni Moda", sans-serif; font-weight: 200; font-size: 4em;}
 footer .privacy {padding-left: 1.5em; border-left: 1px solid #F6F5EF; box-sizing: border-box;}
 footer .privacy span {display: block; line-height: 2.5; font-size: 1.25em; font-weight: 300; }
+footer .privacy br {display: none;}
 footer .site ul {display: flex; align-items: center; gap: 2em;}
 footer .site ul li a {display: block; padding: 0 1em; line-height: 1.825; font-size: 0.875em; color: #F6F5EF; border: 2px solid #F6F5EF; border-radius: 11px;}
 footer .site ul li:hover a {color: #040404; background-color: #F6F5EF; transition: all 0.3s ease-out;}

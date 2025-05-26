@@ -37,7 +37,12 @@ window.addEventListener("load", () => {
 			slidesOffsetBefore: 10,
 			slidesOffsetAfter: 140,
 			breakpoints : {
+				500: {
+					slidesPerView: 2.5,
+					spaceBetween: 10,
+				},
 				700: {
+					slidesPerView: 3.5,
 					spaceBetween: 10,
 				}
 			}

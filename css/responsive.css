@@ -20,7 +20,7 @@
 	#start header .inner nav ul li {margin: 4em 0;}
 	#start header .inner nav ul li a {font-size: 9.5em;}
 	#start .deco .image_top {top: 30%; width: 80px; height: 80px;}
-	#start .deco .image_bottom {bottom: 30%; width: 80px; height: 80px;}
+	#start .deco .image_bottom {left: 26.5%; bottom: 30%; width: 80px; height: 80px;}
 	#start .text .inner strong {font-size: 6.25em;}
 	#start .text .inner span {font-size: 6.25em;}
 }
@@ -28,7 +28,7 @@
 @media only screen and (max-width: 700px) {
 	#start header .inner .logo h1 {font-size: 3.8em;}
 	#start .deco .image_top {top: 34%; width: 50px; height: 50px;}
-	#start .deco .image_bottom {bottom: 34%; width: 50px; height: 50px;}
+	#start .deco .image_bottom {left: 25%; bottom: 33%; width: 50px; height: 50px;}
 	#start .text .inner strong {font-size: 7.25em;}
 	#start .text .inner span {font-size: 7.25em;}
 }
@@ -40,59 +40,67 @@
 @media only screen and (max-width: 900px) {
 	#page1 .content .text p {font-size: 2em;}
 }
+@media only screen and (max-width: 700px) {
+	#page1 .content .text p {font-size: 2.3em;}
+}
 
 /* page2 */
 @media only screen and (max-width: 1440px) {
-	#page2 .content .text ul li strong {font-size: 1.325em;}
-	#page2 .content .text ul li p {font-size: 1.175em;}
+	#page2 .content .text ul li strong {font-size: 1.65em;}
+	#page2 .content .text ul li p {font-size: 1.3em;}
 }
 @media only screen and (max-width: 900px) {
 	#page2 .content .text ul li strong {font-size: 2em;}
-	#page2 .content .text ul li p {font-size: 1.5em;}
+	#page2 .content .text ul li p {font-size: 1.65em;}
+}
+@media only screen and (max-width: 700px) {
+	#page2 .content .text ul li strong {font-size: 2.5em;}
+	#page2 .content .text ul li p {font-size: 2.15em;}
 }
 
 /* page3 */
 @media only screen and (max-width: 1440px) {
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {height: 21.5em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 1.05em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {font-size: 1.55em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {font-size: 1.05em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {font-size: 1.05em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {font-size: 1.05em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {height: 25em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 1.2em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {font-size: 1.7em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {font-size: 1.2em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {font-size: 1.2em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {font-size: 1.2em;}
 }
 @media only screen and (max-width: 900px) {
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {padding: 3.25em 3.125em; height: 40em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {padding: 3.25em 3.125em; height: 45.5em;}
 	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .line { width: 90%;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 2em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {font-size: 2.5em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {font-size: 2em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {font-size: 2em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {font-size: 2em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 2.3em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {font-size: 3.05em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {font-size: 2.3em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .link {gap: 2.5em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {font-size: 2.3em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {font-size: 2.3em;}
 
 }
 
 /* page4 */
 @media only screen and (max-width: 1440px) {
-	#page4 .content .subSwiper ul li a .text .inner strong {font-size: 1.125em;}
-	#page4 .content .subSwiper ul li a .text .inner p {font-size: 0.95em;}
-	#page4 .content .subSwiper ul li a .text .inner span {font-size: 1.125em;}
+	#page4 .content .subSwiper ul li a .text .inner strong {font-size: 1.225em;}
+	#page4 .content .subSwiper ul li a .text .inner p {font-size: 1.05em;}
+	#page4 .content .subSwiper ul li a .text .inner span {font-size: 1.225em;}
 }
 @media only screen and (max-width: 900px) {
 	#page4 .content {padding-top: 5em; width: 100%; overflow: hidden;}
 	#page4 .content .subSwiper ul {flex-wrap: nowrap; justify-content: flex-start; align-items: stretch;}
 	#page4 .content .subSwiper ul li {width: auto;}
-	#page4 .content .subSwiper ul li a {height: 26vw;}
-	#page4 .content .subSwiper ul li a .text .inner {height: calc(26vw + 2em);}
-	#page4 .content .subSwiper ul li a .text .inner strong {font-size: 1.625em;}
-	#page4 .content .subSwiper ul li a .text .inner p {font-size: 1.425em;}
-	#page4 .content .subSwiper ul li a .text .inner span {padding-top: 2.5em; font-size: 1.625em;}
+	#page4 .content .subSwiper ul li a {height: 30vw;}
+	#page4 .content .subSwiper ul li a .text .inner {height: calc(30vw + 2em);}
+	#page4 .content .subSwiper ul li a .text .inner strong {font-size: 1.925em;}
+	#page4 .content .subSwiper ul li a .text .inner p {font-size: 1.725em;}
+	#page4 .content .subSwiper ul li a .text .inner span {padding-top: 2.5em; font-size: 1.925em;}
 }
 @media only screen and (max-width: 700px) {
-	#page4 .content .subSwiper ul li a {padding: 4em;}
-	#page4 .content .subSwiper ul li a .text .inner {height: calc(26vw + 5.5em);}
-	#page4 .content .subSwiper ul li a .text .inner strong {font-size: 1.875em;}
-	#page4 .content .subSwiper ul li a .text .inner p {font-size: 1.675em; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
-	#page4 .content .subSwiper ul li a .text .inner span {font-size: 1.875em;}
+	#page4 .content .subSwiper ul li a {padding: 4em; height: 33vw;}
+	#page4 .content .subSwiper ul li a .text .inner {height: calc(33vw + 5.5em);}
+	#page4 .content .subSwiper ul li a .text .inner strong {font-size: 2.275em;}
+	#page4 .content .subSwiper ul li a .text .inner p {font-size: 2.075em;}
+	#page4 .content .subSwiper ul li a .text .inner span {font-size: 2.275em;}
 }
 
 /* footer */
@@ -109,6 +117,9 @@
 }
 
 @media only screen and (max-width: 700px) {
+	footer .title h2 {font-size: 5.55em;}
+	footer .privacy span {font-size: 2.05em;}
+	footer .privacy br {display: block;}
 	footer .site ul li a {font-size: 1.75em;}
 	/* footer .top {width: 50px; height: 50px;} */
 }
