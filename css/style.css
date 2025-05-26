@@ -22,8 +22,7 @@ section .title h2 {display: block; padding: 20px 0 0.75em 30px; font-family: "Bo
 #start header .inner nav ul li a {display: inline-block; position: relative; font-size: 1em; color: #F6F5EF; transition: color 0.3s ease-out;}
 #start header .inner nav ul li a::after {content: ""; position: absolute; left: 0; bottom: -8px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}
 #start header .inner nav ul li.active a::after {transform: scaleX(1);}
-#start header .inner .tab {display: none; position: absolute; right: 2em; top: 50%; width: 30px; transform: translateY(-50%);}
-#start header .inner .tab { display: none; position: absolute; top: 45%; right: 2em; transform: translateY(-50%);}
+#start header .inner .tab {display: none; position: absolute; right: 2em; top: 50%; z-index: 1001; width: 30px; transform: translateY(-50%);}
 #start header .inner .tab a .button {display: block; position: relative;}
 #start header .inner .tab a .button::before {content: ""; position: absolute; top: -2px; left: 0; right: 0; bottom: 0; margin: auto; width: 23px; height: 3px; background-color: #F6F5EF; transition: all 0.3s ease-out;}
 #start header .inner .tab.active a .button::before {content: ""; position: absolute; top: 5px; left: 0; right: 0; bottom: 0; margin: auto; width: 23px; height: 3px; background-color: #F6F5EF; transform: rotate(45deg);}
@@ -46,8 +45,8 @@ section .title h2 {display: block; padding: 20px 0 0.75em 30px; font-family: "Bo
 /* page2 */
 #page2 {padding: 0 2em 15% 2em; margin: 0 auto; max-width: 1440px; box-sizing: border-box;}
 #page2 .content .text ul li {padding: 2em 0.75em; border-bottom: 1px solid #F6F5EF;}
-#page2 .content .text ul li strong {font-family: "Bodoni Moda", sans-serif; font-weight: 200; font-size: 1em;}
-#page2 .content .text ul li p {line-height: 2.5; font-size: 0.8em; font-weight: 300;}
+#page2 .content .text ul li strong {font-family: "Bodoni Moda", sans-serif; font-weight: 200; font-size: 1.125em;}
+#page2 .content .text ul li p {line-height: 2.5; font-size: 1em; font-weight: 300;}
 /* page3 */
 #page3 {position: relative; height: 76.5vh; box-sizing: border-box;}
 #page3 .image_bg ul li {position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; background-color: rgba(0,0,0,.5); opacity: 0; transition: all 0.3s;}
@@ -62,7 +61,7 @@ section .title h2 {display: block; padding: 20px 0 0.75em 30px; font-family: "Bo
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box {height: 100%; opacity: 0.5; transition: all 0.5s;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 0.8em; font-weight: 500; color: #F6F5EF;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {display: block; padding: 0.5em 0; font-family: "Bodoni Moda", sans-serif; font-size: 1.3em; font-weight: 400; color: #F6F5EF;}
-#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {display: block; line-height: 1.9; font-size: 0.7em; color: #F6F5EF;}
+#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {display: block; line-height: 1.9; font-size: 0.8em; color: #F6F5EF;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .link {display: flex; gap: 1em;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {display: inline-block; position: relative; bottom: -1.5em; z-index: 100; font-size: 0.8em; color: #F6F5EF;}
 #page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review::after {content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; border-bottom: 2px solid #F6F5EF; transform: scaleX(0); transition: transform 0.2s ease-out;}

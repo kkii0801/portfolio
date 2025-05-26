@@ -291,26 +291,11 @@ window.addEventListener("load", () => {
 	});
 
 	// let mainSlide=document.querySelectorAll("#page3 .swiper-slide" )
-	let siteBtn=document.querySelector("#page3 .site")
+	let siteBtn=document.querySelectorAll("#page3 .site")
 	let reviewBtn=document.querySelectorAll("#page3 .review")
 
-	reviewBtn.forEach((item, i) => {
-		item.addEventListener("mouseenter", () => {
-			item.classList.add("active");
-		});
-		item.addEventListener("mouseleave", () => {
-			item.classList.remove("active");
-		});
-	});
-
-	siteBtn.addEventListener("mouseenter", () => {
-		siteBtn.classList.add("active");
-	});
-	siteBtn.addEventListener("mouseleave", () => {
-		siteBtn.classList.remove("active");
-	});
-
-
+	reviewBtn.forEach(item => hoverActive(item));
+	siteBtn.forEach(item => hoverActive(item));
 
 	// #page4 == Open Source
 
