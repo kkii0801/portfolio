@@ -40,7 +40,7 @@ section .title h2 {display: block; padding: 20px 0 0.75em 30px; font-family: "Bo
 /* page1 */
 #page1 {padding: 5% 2em 15% 2em;}
 #page1 .title {padding-top: 75px;}
-#page1 .content .text {padding-top: 75px;}
+#page1 .content .text {padding-top: 5.5em;}
 #page1 .content .text p {line-height: 2.75; font-size: 1.125em; font-weight: 300; text-align: center;}
 /* page2 */
 #page2 {padding: 0 2em 15% 2em; margin: 0 auto; max-width: 1440px; box-sizing: border-box;}
