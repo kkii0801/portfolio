@@ -93,6 +93,8 @@
 
 /* page4 */
 @media only screen and (max-width: 1440px) {
+	#page4 .content .subSwiper ul li a {height: 20vw;}
+	#page4 .content .subSwiper ul li a .text .inner {height: calc(20vw + 2em);}
 	#page4 .content .subSwiper ul li a .text .inner strong {font-size: 1.225em;}
 	#page4 .content .subSwiper ul li a .text .inner p {font-size: 1.05em;}
 	#page4 .content .subSwiper ul li a .text .inner span {font-size: 1.225em;}
@@ -128,7 +130,6 @@
 }
 @media only screen and (max-width: 900px) {
 	footer .title h2 {font-size: 5.25em;}
-	/* footer .top {width: 65px; height: 65px;} */
 	footer .privacy span {font-size: 1.75em;}
 	footer .site ul li a {font-size: 1.375em;}
 }
@@ -137,7 +138,6 @@
 	footer .privacy span {font-size: 2.05em;}
 	footer .privacy br {display: block;}
 	footer .site ul li a {font-size: 1.75em;}
-	/* footer .top {width: 50px; height: 50px;} */
 }
 @media only screen and (max-width: 410px) {
 	footer .title h2 {font-size: 6em;}

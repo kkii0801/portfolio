@@ -88,7 +88,7 @@ window.addEventListener("load", () => {
 
 	window.addEventListener("resize", Resize);
 
-	function hoverActive(item){
+	let hoverActive = item => {
 		item.addEventListener("mouseenter", () => {
 			item.classList.add("active");
 		})
@@ -192,14 +192,6 @@ window.addEventListener("load", () => {
 			isScrolling = false;
 		}
 	});
-
-	// top 버튼
-	// document.querySelector("footer .top").addEventListener("click", e => {
-	// 	e.preventDefault();
-
-	// 	let target=document.querySelector("#start").offsetTop
-	// 	gsap.to(window, {scrollTo : target, duration: 0.4});
-	// });
 
 	// start GSAP
 
