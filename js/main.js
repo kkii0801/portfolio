@@ -37,6 +37,10 @@ window.addEventListener("load", () => {
 			slidesOffsetBefore: 10,
 			slidesOffsetAfter: 140,
 			breakpoints : {
+				350: {
+					slidesPerView: 2.25,
+					spaceBetween: 5,
+				},
 				500: {
 					slidesPerView: 2.5,
 					spaceBetween: 10,
@@ -281,9 +285,13 @@ window.addEventListener("load", () => {
 		// 	delay: 4000,
 		// },
 		breakpoints: {
+			350: {
+				slidesPerView: 1,
+				spaceBetween: 5
+			},
 			700: {
 				slidesPerView: 1,
-				spaceBetween: 30
+				spaceBetween: 20
 			},
 			900: {
 				slidesPerView: 2.5,

@@ -69,7 +69,7 @@
 }
 @media only screen and (max-width: 900px) {
 	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {padding: 3.25em 3.125em; height: 45.5em;}
-	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .line { width: 90%;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .line {width: 90%;}
 	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 2.3em;}
 	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {font-size: 3.05em;}
 	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {font-size: 2.3em;}
@@ -77,6 +77,18 @@
 	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {font-size: 2.3em;}
 	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {font-size: 2.3em;}
 
+}
+@media only screen and (max-width: 700px)  {
+	#page3 .inner .content .mainSwiper {margin-left: 12%; width: calc(100% - 12%);}
+}
+@media only screen and (max-width: 410px) {
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide {height: 52em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .project {font-size: 2.7em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .title {font-size: 3.45em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box span {font-size: 2.7em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .link {gap: 3em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .site {font-size: 2.7em;}
+	#page3 .inner .content .mainSwiper .swiper-wrapper .swiper-slide .box .review {font-size: 2.7em;}
 }
 
 /* page4 */
@@ -102,6 +114,11 @@
 	#page4 .content .subSwiper ul li a .text .inner p {font-size: 2.075em;}
 	#page4 .content .subSwiper ul li a .text .inner span {font-size: 2.275em;}
 }
+@media only screen and (max-width: 410px) {
+	#page4 .content .subSwiper ul li a .text .inner strong {font-size: 2.675em;}
+	#page4 .content .subSwiper ul li a .text .inner p {font-size: 2.475em;}
+	#page4 .content .subSwiper ul li a .text .inner span {font-size: 2.675em;}
+}
 
 /* footer */
 @media only screen and (max-width: 1440px) {
@@ -115,11 +132,15 @@
 	footer .privacy span {font-size: 1.75em;}
 	footer .site ul li a {font-size: 1.375em;}
 }
-
 @media only screen and (max-width: 700px) {
 	footer .title h2 {font-size: 5.55em;}
 	footer .privacy span {font-size: 2.05em;}
 	footer .privacy br {display: block;}
 	footer .site ul li a {font-size: 1.75em;}
 	/* footer .top {width: 50px; height: 50px;} */
+}
+@media only screen and (max-width: 410px) {
+	footer .title h2 {font-size: 6em;}
+	footer .privacy span {font-size: 2.55em;}
+	footer .site ul li a {font-size: 2.25em;}
 }
