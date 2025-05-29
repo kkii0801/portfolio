@@ -343,6 +343,7 @@ window.addEventListener("load", () => {
 				page4Tl.from(con4List[3], { yPercent: 190 }, '-=100%')
 				page4Tl.from(con4List[4], { yPercent: 220 }, '-=100%')
 				page4Tl.from(con4List[5], { yPercent: 250 }, '-=100%')
+				page4Tl.from(con4List[6], { yPercent: 280 }, '-=100%')
 		}
 		else{
 			if (page4Tl) {
