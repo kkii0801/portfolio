@@ -98,7 +98,7 @@ footer .left {display: flex; align-items: center; gap: 4em;}
 footer .title h2 {display: block; padding-bottom: 0.75em; font-family: "Bodoni Moda", sans-serif; font-weight: 200; font-size: 4em;}
 footer .privacy {padding-left: 1.5em; border-left: 1px solid #F6F5EF; box-sizing: border-box;}
 footer .privacy span {display: block; line-height: 2.5; font-size: 1.25em; font-weight: 300; }
-footer .privacy br {display: none;}
+/* footer .privacy br {display: none;} */
 footer .site ul {display: flex; align-items: center; gap: 2em;}
 footer .site ul li a {display: block; padding: 0 1em; line-height: 1.825; font-size: 0.875em; color: #F6F5EF; border: 1px solid #F6F5EF; border-radius: 11px;}
 footer .site ul li:hover a {color: #040404; background-color: #F6F5EF; transition: all 0.3s ease-out;}

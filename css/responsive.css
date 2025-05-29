@@ -136,7 +136,7 @@
 @media only screen and (max-width: 700px) {
 	footer .title h2 {font-size: 5.55em;}
 	footer .privacy span {font-size: 2.05em;}
-	footer .privacy br {display: block;}
+	/* footer .privacy br {display: block;} */
 	footer .site ul li a {font-size: 1.75em;}
 }
 @media only screen and (max-width: 410px) {
