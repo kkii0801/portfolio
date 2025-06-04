@@ -15,7 +15,7 @@
 ## 스크롤시 회전하는 particle 구현하기 
 
 ### 작동 예시
-<div align="center"><img src=""></div>
+<div align="center"><img src="https://github.com/kkii0801/Readme_files/blob/main/portfolio/portfolio_particle.gif?raw=true"></div>
 
 ### 코드 설명
 ```
@@ -54,7 +54,7 @@ gsap.utils.toArray(".deco img").forEach(particle => {
 ## Swiper 스왑시 배경 이미지 변경하기
 
 ### 작동 예시
-<div align="center"><img src=""></div>
+<div align="center"><img src="https://github.com/kkii0801/Readme_files/blob/main/portfolio/portfolio_backswiper.gif?raw=true"></div>
 
 ### 코드 설명
 ```
@@ -117,7 +117,7 @@ slideChange: 슬라이드가 변경될 때 this.realIndex를 통해 현재 슬�
 ## 특정 해상도에서 Swiper로 구동하기
 
 ### 작동 예시
-<div align="center"><img src=""></div>
+<div align="center"><img src="https://github.com/kkii0801/Readme_files/blob/main/portfolio/portfolio_init.gif?raw=true"></div>
 
 ### 코드 설명
 ```
